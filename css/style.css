@@ -1,0 +1,500 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Brandon_reg ;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffff;
+
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.c_h2 {
+	margin: 0;
+	padding: 0px 0 53px;
+	font-size: 60px;
+	font-weight: 300;
+	color: #222222;
+	font-family: Brandon_light;
+	letter-spacing: 1px;
+	
+}
+
+
+.c_h2 span {
+	font-weight: 900;
+	font-family: Brandon_bld;
+	letter-spacing: 1px;
+}
+
+.c_p {
+	margin: 0;
+	font-size: 18px;
+	color: #777777;
+
+}
+
+.c_s {
+	font-size: 20px;
+	color: #7690c5;
+}
+/*common end*/
+/*fonts*/
+@font-face{
+	src: url(../font/brandon-grotesque/Brandon_bld.otf);
+	font-family: Brandon_bld ;
+
+}
+font-face{
+	src: url(../font/brandon-grotesque/Brandon_light.otf);
+	font-family: Brandon_light ;
+}
+font-face{
+	src: url(../font/brandon-grotesque/Brandon_med.otf);
+
+	font-family: Brandon_med ;
+}
+@font-face{
+	src: url(../font/brandon-grotesque/Brandon_reg.otf);
+	font-family: Brandon_reg ;
+}
+@font-face{
+	src: url(../font/cubano/Cubano-Regular.otf);
+	font-family: Cubano-Regular ;
+}
+
+/*fonts*/
+/*h_banner start*/
+header{
+	background-image: url(../img/m-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+}
+.h_banner{
+	padding: 40px 0;
+}
+
+.logo {
+	width: 15%;
+	float: left;
+	/*border: 1px solid white;*/
+	padding: 14px;
+}
+.text{
+	width: 75%;
+	float: right;
+}
+.text img{
+	width: 100%;
+}
+
+.l-icon{
+	/*border: 1px solid red;*/
+	width: 24%;
+	float: left;
+
+}
+.l-icon span i{
+	font-size: 30px;
+	color: #fff;
+}
+
+
+.menu{
+	width:82%;
+	float: right;
+	/*border: 1px solid white;*/
+	margin-bottom: 50px: 
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	margin: 0 35px;
+	padding: 3px;
+	display: inline-block;
+	color: #ffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .4s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #777777;
+}
+.b-heading {
+	text-align: center;
+	padding: 80px 0;
+}
+.b-heading h3 {
+	font-family: Brandon_light;
+	font-size: 30px;
+	font-weight: 300;
+	margin: 20px 0;
+	padding: 50px 0 0;
+}
+.c-h1 {
+	font-family: Brandon_bld;
+	font-size: 68px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0 0 50px;
+}
+.b-heading h1{}
+.b-heading button {
+	margin-top: 30px;
+	width: 240px;
+	height: 70px;
+	border: none;
+	background: transparent;
+	border: 1px solid #ffff;
+	font-family: Brandon_bld;
+	font-size: 23px;
+	font-weight: 900;
+	color: #ffff;
+	cursor: pointer;
+}
+
+.b-heading button:hover{
+	background-color: #777777;
+}
+
+/*h_banner end*/
+/*web_identity start*/
+.web-id{
+	padding: 100px 0;
+}
+.w-devlopment {
+	/*border: 1px solid;*/
+	overflow: hidden;
+}
+.w-content {
+	/*border: 1px solid;*/
+	width: 56%;
+	float: left;
+	margin-left: 40px;
+}
+
+
+
+.w-icon {
+	/* border: 1px solid; */
+	width: 24%;
+	float: right;
+	margin-right: 40px;
+}
+.w-icon img {
+	width: 100%;
+}
+/*web_identity end*/
+/*user identity*/
+.w-icon2 {
+	width: 33%;
+	float: left;
+	margin-left: 40px;
+}
+.w-icon2 img{
+	width: 100%;
+}
+.w-content2{
+	width: 50%;
+	float: right;
+	margin-right: 40px;
+	/*border: 1px solid;*/
+
+}
+/*user identity*/
+/*about start*/
+.about{
+	/*border: 1px solid black;*/
+	overflow: hidden;
+	padding: 100px 0;
+}
+.about-us {
+	/*border: 1px solid;*/
+	width: 40%;
+	float: left;
+	margin-left: 40px;
+	
+	
+}
+.about-us:nth-child(even) {
+	margin-left: 70px;
+	padding-bottom: 50px;
+	padding-left: 86px;
+}
+.about-us:nth-child(odd) {
+	padding-bottom: 50px;
+}
+.a-icon {
+	/*border: 1px solid;*/
+	float: left;
+	width: 80px;
+	height: 80px;
+	background: #000;
+	border-radius: 50%;
+	position: relative;
+
+}
+.a-icon span{}
+.a-icon span i {
+	font-size: 50px;
+	color: #fff;
+	position: absolute;
+	top: 13px;
+	left: 15px;
+}
+.a-text {
+	/*border: 1px solid;*/
+	float: right;
+	width: 77%;
+}
+.a-text h4 {
+	margin: 0;
+	font-family: Brandon_med ;
+	font-size: 22px;
+	font-weight: 600;
+	color: black;
+
+}
+
+
+/*about end*/
+/*clients start*/
+.clients{
+	overflow: hidden;
+}
+.c-title{
+	text-align: center;
+}
+.c-title h2 {
+	padding: 0;
+	color: #000;
+}
+.c-bio {
+	/*border: 2px solid blue;*/
+	overflow: hidden;
+}
+.a-clients {
+	width: 38%;
+	float: left;
+	margin-top: 50px;
+}
+.c_div{
+	width: 350px;
+	height: 350px;
+	background: #000;
+	border-radius: 50%;	
+	border: 5px solid #ddd;
+}
+.a-clients2 {
+	width: 30%;
+	float: right;
+	margin-top: 50px;
+	
+}
+
+.c-text {
+	/*border: 1px solid red;*/
+	width: 38%;
+	float: left;
+	margin-top: 70px;
+	padding: 100px;
+	margin-left: 50px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+
+.c-text p{
+	font-size: 22px;
+}
+.c-text2 {
+	border: 1px solid red;
+	width: 38%;
+	float: left;
+	margin-top: 70px;
+	padding: 100px;
+	margin-left: 56px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.c-img2 {
+	float: right;
+	width: 35%;
+}
+.c-img2 img {
+	width: 100%;
+}
+
+.logo_img {
+	padding: 70px 0;
+	
+}
+.logo_img img{
+	
+	margin-right: 40px;
+}
+
+/*clients start*/
+/*team start*/
+.team{
+	/*border: 1px solid;*/
+	background-color: #000;
+	padding: 100px 0;
+}
+.c-title2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.c-title2 h2{
+	padding: 0;
+	color: #fff;
+}
+.s-team {
+	/*border: 1px solid red;*/
+	margin: 50px 0; 
+	width: 33%;
+	text-align: center;
+	float: left;
+}
+
+.s-team h3 {
+	font-family: Brandon_bld;
+	margin: 15px 0 5px;
+	font-size: 18px;
+	font-weight: 900;
+	color: #fff;
+	
+}
+.s-team span{}
+.s-team span i{
+	color: #fff;
+}
+..s-team p{
+	text-align: center;
+}
+.text-p {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+.text-p p{
+	font-size: 20px;
+	color: #fff;
+}
+/*team end*/
+/*contact start*/
+.contact_f{
+	/*border: 1px solid blue;*/
+	padding: 100px 0;
+	background-color: #7690c5;
+}
+.c_text {
+	/*border: 1px solid red;*/
+	width: 45%;
+	float: left;
+}
+.c_text h2 {
+	padding: 0;
+	color: #fff;
+}
+.c_text p{
+	color: #fff;
+}
+.s_fl {
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+	width: 45%;
+	float: left;
+	
+}
+.s_fl p {
+	
+	margin-top: 16px;
+}
+.s_fl p span{}
+.s_fr {
+	margin-top: 20px;
+	/*border: 1px solid blue;*/
+	width: 45%;
+	float: right;
+}
+.contact_f span i {
+	margin: 10px 15px 0 0;
+	font-size: 20px;
+	
+}
+.c_form{
+	/*border: 1px solid blue;*/
+	width: 50%;
+	float: right;
+}
+.c_form form{}
+.c_form input {
+	width: 95%;
+	height: 25px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.c_form textarea{
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+#yname{
+	font-size: 18px;
+	padding: 10px;
+	font-family: Brandon_med ;
+	font-weight: 600;
+}
+#email{
+	font-size: 18px;
+	padding: 10px;
+	font-family: Brandon_med ;
+	font-weight: 600;
+}
+#message{
+	font-size: 18px;
+	padding: 10px;
+	font-family: Brandon_med ;
+	font-weight: 600;
+}
+
+/*contact end*/
+/*footer start*/
+.footer{
+	background-color: #7690c5;
+	
+}
+.text-p1{
+	text-align: center;
+
+}
+.text-p1 p {
+	font-family: Brandon_med;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	padding: 30px;
+}
+/*footer end*/
